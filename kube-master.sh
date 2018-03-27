@@ -6,7 +6,7 @@ LOG=/tmp/kube-master.log
 rm -f $LOG
 
 ## Source Common Functions
-curl -s "https://raw.githubusercontent.com/linuxautomations/scripts/master/common-functions.sh" >/tmp/common-functions.sh
+curl -s "https://raw.githubusercontent.com/linuxautomations-docker/kubernetes/master/common-functions.sh" >/tmp/common-functions.sh
 source /tmp/common-functions.sh
 
 ## Checking Root User or not.
